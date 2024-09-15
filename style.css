@@ -88,28 +88,30 @@ h1 {
   float: right;
 }
 
-@media (max-width: 680px) {
-  .logo {
-    width: 100px;
-  }
-
-  h1 {
-    font-size: 3.5rem;
-    text-align: center;
-  }
-
+@media (max-width: 1024px) {
   .card {
     width: 100%;
-    display: block;
     margin-bottom: 30px;
-    text-align: justify;
   }
 
-  .card img {
-    margin-bottom: 10px;
-    width: 100%;
-    display: inline;
-    object-fit: cover;
+  .pricing-container {
+    grid-template-columns: 1fr 1fr; /* Two columns for tablets */
+  }
+
+  .tile-image {
+    height: auto; /* Make images responsive */
+    margin-right: 0; /* Adjust margins */
+  }
+}
+
+@media (max-width: 768px) {
+  .pricing-container {
+    grid-template-columns: 1fr; /* Single column for smaller screens */
+  }
+
+  .tile-image {
+    width: 100%; /* Full-width images on smaller screens */
+    height: auto;
   }
 }
 
