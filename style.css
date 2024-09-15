@@ -132,7 +132,7 @@ h1 {
 .pricing-plan {
   background: linear-gradient(135deg, #92b4df, #4285f4);
   border-radius: 20%;
-  max-width: 200px;
+  width: 200px;
   text-align: center;
 }
 
