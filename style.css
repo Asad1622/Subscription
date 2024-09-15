@@ -1,0 +1,177 @@
+html, body {
+  height: 100%; /* Make sure the body takes full height */
+  margin: 0; /* Remove default margin */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to left, #000428, #004e92);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.main {
+  flex: 1; /* This makes sure the content area expands to fill available space */
+  padding: 50px; /* Adjust padding as needed */
+  background-color: #faf9f6; /* Background color for content area */
+}
+
+footer {
+  background-color: #004e92; /* Background color of the footer */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: relative; /* Ensure footer is positioned relative to its container */
+  bottom: 0;
+  width: 100%; /* Make sure the footer spans the full width */
+}
+
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-menu li {
+  margin: 0 1rem;
+}
+
+.footer-menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.footer-menu a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  height: 100px;
+  float: left;
+}
+
+h1 {
+  color: aliceblue;
+  font-size: 3em;
+  margin-top: 40px;
+}
+
+.card-title {
+  color: aliceblue;
+}
+
+.creative {
+  color: rgb(246, 118, 13);
+  background-color: white;
+}
+
+.ZA {
+  color: orange;
+}
+
+.card {
+  width: 45%;
+  color: white;
+  font-weight: bolder;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+  
+}
+
+.pricing-container {
+  color: black;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  
+}
+
+.pricing-plan {
+  background: linear-gradient(135deg, #92b4df, #4285f4);
+  border-radius: 20%;
+  max-width: 200px;
+  text-align: center;
+}
+
+.plan-button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.plan-title {
+  font-weight: bolder;
+  background-color: white;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  color: red;
+  border-radius: 70px;
+}
+
+.plan-price {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#blue:focus {
+  outline: none;
+  box-shadow: none;
+  text-decoration: none;
+}
+.zo{
+  background-color: white;
+}
